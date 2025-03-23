@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio Details -Tychique M. Matondo</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/matthias.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Tychique M. Matondo</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://x.com/Mat_MatondKus" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <a href="https://web.facebook.com/Matthias0Matondo" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/tychique_matondo/" class="instagram"><i
+          class="bi bi-instagram"></i></a>
+      <a href="https://github.com/Matthias0Matondo"  class="github"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/tychique-matondo-0b0379328/" class="linkedin"><i
+          class="bi bi-linkedin"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Portfolio Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 10000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide" onclick="showDetails('biteyelo')">
+                  <img src="assets/img/portfolio/biteyelo.png" alt="biteyelo">
+                </div>
+                <div class="swiper-slide" onclick="showDetails('blog')">
+                  <img src="assets/img/portfolio/blog.png" alt="blog">
+                </div>
+                <div class="swiper-slide" onclick="showDetails('googlecontact')">
+                  <img src="assets/img/portfolio/google contact.png" alt="google contact">
+                </div>
+                <div class="swiper-slide" onclick="showDetails('isic')">
+                  <img src="assets/img/portfolio/isic.png" alt="isic">
+                </div>
+                <div class="swiper-slide" onclick="showDetails('piano')">
+                  <img src="assets/img/portfolio/piano.png" alt="Piano">
+                </div>
+                <div class="swiper-slide" onclick="showDetails('portfolio')">
+                  <img src="assets/img/portfolio/portofolio.png" alt="Portfolio">
+                </div>
+                <div class="swiper-slide" onclick="showDetails('shortlink')">
+                  <img src="assets/img/portfolio/shortLink.png" alt="shortlink">
+                </div>
+                <div class="swiper-slide" onclick="showDetails('twitter')">
+                  <img src="assets/img/portfolio/twitter.png" alt="twitter">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div id="biteyelo" class="portfolio-info" style="display: none;" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Web site education</li>
+                <li><strong>Client</strong>: Eric Kandja</li>
+                <li><strong>Project date</strong>: 01 March, 2023</li>
+              </ul>
+              <h2>Biteyelo</h2>
+              <p>Biteyelo is a SaaS (Software as a Service) solution designed for schools, offering a set of tools to manage school
+              operations, including administration, communication, and student management. Built with Django and Vue.js, its goal is
+              to simplify school management by centralizing administrative processes and improving communication between teachers,
+              students, and parents...</p>
+            </div>
+
+            <div id="blog" class="portfolio-info" style="display: none;" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Website exercise</li>
+                <li><strong>Client</strong>: Kadea</li>
+                <li><strong>Project date</strong>: 15 September 2024</li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/kadea-academy-learners/adonis-blog-da-Matthias0Matondo">My github account</a></li>
+              </ul>
+              <h2>Blog</h2>
+              <p>A blog is an online platform where users can regularly publish articles, opinions, tutorials, or information on various
+              topics. Built with AdonisJs, blogs allow individuals and businesses to share knowledge, establish their expertise in a
+              field, and interact with their audience. They are also a powerful tool for digital marketing, enhancing online
+              visibility and search engine optimization.</p>
+            </div>
+
+            <div id="isic" class="portfolio-info" style="display: none;" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>University Website</li>
+                <li><strong>Client</strong>: ISIC</li>
+                <li><strong>Project date</strong>: 10 October 2024</li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/Matthias0Matondo/isicPgi">My github account</a></li>
+              </ul>
+              <h2>ISIC PGI</h2>
+              <p>ISIC is an ERP (Enterprise Resource Planning)
+              designed specifically for higher education institutions. It provides a set of tools to efficiently manage academic and
+              administrative operations, including student enrollment, course management, human resources, and accounting. ISIC aims
+              to centralize information processes, improve communication between different departments, and support decision-making
+              through real-time reporting and analytics. With its user-friendly interface, ISIC facilitates the daily management of
+              institutions and optimizes the experience for students and staff....</p>
+            </div>
+
+            <div id="googlecontact" class="portfolio-info" style="display: none;" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: website exercise</li>
+                <li><strong>Client</strong>: Kadea</li>
+                <li><strong>Project date</strong>: 20 August 2024</li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/kadea-academy-learners/google-contacts-clone-Matthias0Matondo">My github account</a></li>
+              </ul>
+              <h2>Google clone contact</h2>
+              <p>Google Contacts is a contact management application that allows users to store, organize, and synchronize their contacts
+              across multiple devices. Built with JavaScript, its primary goal is to facilitate access to and management of contact
+              information. It enables users to create groups, add notes and addresses, and synchronize contacts with other Google
+              services, enhancing productivity and personal organization...</p>
+            </div>
+            <div id="piano" class="portfolio-info" style="display: none;" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: website exercise</li>
+                <li><strong>Client</strong>: Kadea</li>
+                <li><strong>Project date</strong>: 20 July 2024</li>
+                <li><strong>Project URL</strong>: <a
+                    href="https://github.com/kadea-academy-learners/exercice-piano-kit-Matthias0Matondo">My github account</a>
+                </li>
+              </ul>
+              <h2>Piano kit</h2>
+              <p>Piano Kit is an interactive application designed to help users learn to play the piano. Built with JavaScript, it offers
+              a user-friendly interface where users can play notes, follow tutorials, and practice pieces. The application includes
+              features such as guided lessons, rhythm games, and the ability to record and share performances. Piano Kit aims to make
+              piano learning accessible and fun for musicians of all levels....</p>
+            </div>
+            <div id="portfolio" class="portfolio-info" style="display: none;" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: website portfolio</li>
+                <li><strong>Client</strong>: Kadea</li>
+                <li><strong>Project date</strong>: 20 November 2024</li>
+                <li><strong>Project URL</strong>: <a
+                    href="https://github.com/kadea-academy-learners/projet-portfolio-en-html-et-css-mobile-first-Matthias0Matondo">My github account</a>
+                </li>
+              </ul>
+              <h2>Portfolio</h2>
+              <p>The Portfolio application is an online presentation platform designed to allow users to showcase their work, skills, and
+              achievements. Built with HTML and CSS, it utilizes a responsive design to ensure an optimal user experience across all
+              devices, from desktops to smartphones. The application allows users to organize projects by categories, include detailed
+              descriptions, and add links to external work. With a sleek and intuitive interface, users can easily navigate through
+              the portfolios, helping to establish a professional online presence...</p>
+            </div>
+            <div id="shortlink" class="portfolio-info" style="display: none;" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: website exercise</li>
+                <li><strong>Client</strong>: Kadea</li>
+                <li><strong>Project date</strong>: 20 August 2024</li>
+                <li><strong>Project URL</strong>: <a
+                    href="https://github.com/kadea-academy-learners/url-shortener-Matthias0Matondo">My github account</a>
+                </li>
+              </ul>
+              <h2>URL shortener</h2>
+              <p>A URL shortener is an online tool that allows users to convert long URLs into shorter, more shareable versions. Built
+              with Express.js, it is particularly useful for sharing links on social media, in emails, or on websites, as it makes
+              links more aesthetically pleasing and enables tracking the number of clicks on these links, providing insights into user
+              engagement....</p>
+            </div>
+            <div id="twitter" class="portfolio-info" style="display: none;" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: website exercise</li>
+                <li><strong>Client</strong>: Kadea</li>
+                <li><strong>Project date</strong>: 02 December 2024</li>
+                <li><strong>Project URL</strong>: <a
+                    href="https://github.com/kadea-academy-learners/projet-clone-twitter-da-Matthias0Matondo">My github account</a>
+                </li>
+              </ul>
+              <h2>Twitter clone</h2>
+              <p>The Twitter application clone is a microblogging platform that allows users to post short messages, interact with other
+              users, and follow topics of interest. Built with AdonisJs, this project mimics the essential features of Twitter, such
+              as account creation, tweet posting, user following, and interaction through likes and retweets. The application is
+              designed to provide a smooth and dynamic user experience, with a user-friendly interface that allows easy navigation
+              between different news feeds and notifications. This clone aims to showcase the capabilities of AdonisJs in developing
+              robust and responsive web applications....</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function showDetails(projectId) {
+        // Masquer toutes les sections de projet
+        const projects = document.querySelectorAll('.portfolio-info');
+        projects.forEach(project => {
+          project.style.display = 'none';
+        });
+
+        // Afficher la section de projet cliqué
+        document.getElementById(projectId).style.display = 'block';
+      }
+    </script><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Matthias Matondo</strong> <span>All Rights
+            Reserved</span>
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
